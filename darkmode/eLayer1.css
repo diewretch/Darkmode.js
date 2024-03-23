@@ -1,0 +1,17 @@
+body {
+    transition: background-color 0.3 ease;
+}
+
+.darkmode{
+    background-color: darkslateblue;
+}
+
+.light-mode{
+    background-color: ghostwhite;
+}
+
+.ninja-mode{
+    background-color: dimgray;
+}
+
+ 

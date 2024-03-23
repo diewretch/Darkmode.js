@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="eLayer1.css">
+</head>
+<body>
+    <p class="intro">hey i made darkmode</p>
+    <p class="intro">i will be implementing onto an actual webpage soon but this is just a showcase of my combined html, css, and java combined. </p>
+    <div id="modeLabel" class="mode-label">Light Mode</div>
+    <img id="modeIcon" src="/img/light-angel.png.jpg" alt="Mode Icon">
+
+    <script>
+    let mode = "ninja";
+    let color = "ghostWhite";
+    let image = "/img/light-angel.png.jpg";
+    let label = "Light Mode";
+    switch (mode) {
+      case "dark":
+        color = "darkSlateBlue";
+        image = "/img/dark-angel.png.jpg";
+        label = "Dark Mode";
+        break;
+      case "light":
+        color = "ghostWhite";
+        image = "/img/light-angel.png.jpg";
+        label = "Light Mode";
+        break;
+      case "ninja":
+        color = "dimGray";
+        image = "/img/ninja-icon.png";
+        label = "Ninja Mode";
+    }
+</script>
+</body>
+</html>
